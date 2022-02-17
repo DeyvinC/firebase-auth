@@ -23,7 +23,7 @@ function Welcome({ user, setUser }){
             <h2>{user.displayName || user.email}</h2>
             {user.photoURL && <img src={user.photoURL} 
             alt='Profile of logged-in user' />}
-            <button onClick={handleLogout}> Sign Out</button>
+            <button className='Signup' onClick={handleLogout}> Sign Out</button>
         </>
     )
 }

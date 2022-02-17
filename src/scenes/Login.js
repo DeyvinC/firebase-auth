@@ -38,7 +38,7 @@ function Login({user, setUser}){
             setUser(result.user)
 
             localStorage.setItem('displayName', result.user.displayName)
-            localStorage.setItem('photo', result.user.photoURL)
+            localStorage.setItem('avatar', result.user.photoURL)
             localStorage.setItem('uid', result.user.uid)
 
             console.log('this is my result', result.user.displayName)
