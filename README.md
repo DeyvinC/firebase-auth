@@ -10,4 +10,5 @@ Credentials file not needed
 
 for more info on authentication [link here](https://firebase.com)
 
+### What welcome picture looks like:
 ![Screenshot of what the website looks like](SampleImage.png)
